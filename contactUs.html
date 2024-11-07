@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Kruspy Krab - contact us </title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div class="navigtionBar">
+	<a href="index.html">Home</a>
+	<a href="menu.html">Menu</a>
+	<a href="aboutUs.html">About us</a>
+	<a href="contactUs.html">contactUs</a>
+</div>
+<div class="contactUs-container">
+	<h1>Feel Free To Contact Us!</h1>
+	<form name="form" id="Myform">
+		<input type="text" placeholder="Yous sweet name" name="name" id="name" autocomplete="name">
+		<input type="text" placeholder="Subject" name="subject" id="subject">
+		<fieldset>
+			<legend>Purpose</legend>
+
+			<label for="complain">complain</label>
+			<input type="radio" disabled name="complain" id="complain">
+			
+			<label for="flattering">flattering</label>
+			<input type="radio" name="flattering" id="flattering">
+		
+		</fieldset>
+		<textarea placeholder="Content" name="Content" id="content"></textarea>
+		<button onclick="tt()" type="submit">Click Me!</button>
+	</form>
+</div>
+</body>
+</html>
